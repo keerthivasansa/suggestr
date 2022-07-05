@@ -11,6 +11,7 @@ export default function NavBar() {
 
       <div className="hamburger">
         <img
+          alt="hamburger"
           width="22px"
           src="https://uploads-ssl.webflow.com/61024a7430eba47b88a58edb/61024a7430eba42f7ea5901d_menu.svg"
         />

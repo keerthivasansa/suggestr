@@ -1,6 +1,5 @@
 import './App.css'
 import HighlightCard from './components/HighlightCard'
-import InnerCard from './components/InnerCard'
 import NavBar from './components/NavBar'
 import VideoCard from './components/VideoCard'
 
@@ -28,6 +27,7 @@ function App() {
         callToAction="Book a Demo"
         actionUrl="https://www.suggestr.co/book-demo"
       />
+      <h3>Unfinished</h3>
       <main className="mx-4">
         <section
           className="px-4 py-3 text-left rounded-2xl flex gap-2 justify-around"
