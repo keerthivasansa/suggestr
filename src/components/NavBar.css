@@ -1,10 +1,7 @@
-.navbar {
+.nav-outer {
   position: sticky;
   z-index: 999;
-}
-
-.nav-outer {
-  @apply mx-5 sticky text-sm shadow-md border-gray-100 border-2 items-center top-5 navbar flex flex-row gap-4 rounded-full bg-white bg-opacity-100 p-2;
+  @apply mx-5 sticky text-sm shadow-md border-gray-100 border-2 items-center top-5 flex flex-row gap-4 rounded-full bg-white bg-opacity-100 p-2;
 }
 
 .nav-link-wrapper {
@@ -80,10 +77,6 @@
 }
 
 @media (max-width: 500px) {
-  .nav-outer {
-    position: relative;
-  }
-
   .hamburger {
     z-index: 2;
   }
